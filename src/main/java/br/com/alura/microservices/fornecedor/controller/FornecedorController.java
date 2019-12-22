@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.com.alura.microservices.fornecedor.dto.FornecedorResponseDto;
+import br.com.alura.microservices.fornecedor.dto.response.FornecedorResponseDto;
 import br.com.alura.microservices.fornecedor.entity.FornecedorEntity;
 import br.com.alura.microservices.fornecedor.mapper.FornecedorMapper;
 import br.com.alura.microservices.fornecedor.service.FornecedorService;

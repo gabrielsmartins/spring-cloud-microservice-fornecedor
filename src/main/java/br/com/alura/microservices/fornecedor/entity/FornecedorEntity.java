@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table(name="TBL_INFO")
+@Table(name="fornecedor")
 @Entity
 public class FornecedorEntity implements Serializable{
 	
@@ -17,27 +17,28 @@ public class FornecedorEntity implements Serializable{
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name = "id")
 	private Long id;
 
-	@Column(name = "LOGRADOURO")
+	@Column(name = "logradouro")
 	private String logradouro;
 	
-	@Column(name = "NUMERO")
+	@Column(name = "numero")
 	private String numero;
 	
-	@Column(name = "BAIRRO")
+	@Column(name = "bairro")
 	private String bairro;
 	
-	@Column(name = "CIDADE")
+	@Column(name = "cidade")
 	private String cidade;
 	
-	@Column(name = "ESTADO")
+	@Column(name = "estado")
 	private String estado;
 	
-	@Column(name = "CEP")
+	@Column(name = "cep")
 	private String CEP;
 	
-	@Column(name = "COMPLEMENTO")
+	@Column(name = "complemento")
 	private String complemento;
 
 	public Long getId() {

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import br.com.alura.microservices.fornecedor.entity.FornecedorEntity;
 
 @Repository
-public interface InfoRepository extends JpaRepository<FornecedorEntity, Long>{
+public interface FornecedorRepository extends JpaRepository<FornecedorEntity, Long>{
 
 	public FornecedorEntity findByEstado(String estado);
 

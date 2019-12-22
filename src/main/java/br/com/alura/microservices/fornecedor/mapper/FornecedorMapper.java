@@ -1,6 +1,6 @@
 package br.com.alura.microservices.fornecedor.mapper;
 
-import br.com.alura.microservices.fornecedor.dto.FornecedorResponseDto;
+import br.com.alura.microservices.fornecedor.dto.response.FornecedorResponseDto;
 import br.com.alura.microservices.fornecedor.entity.FornecedorEntity;
 
 public class FornecedorMapper {

@@ -1,4 +1,4 @@
-package br.com.alura.microservices.fornecedor.dto;
+package br.com.alura.microservices.fornecedor.dto.response;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
