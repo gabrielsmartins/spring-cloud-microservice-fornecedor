@@ -22,7 +22,7 @@ public class PedidoMapper {
 		              .collect(Collectors.toList());
 		pedidoResponseDto.setItens(itensDto);
 		pedidoResponseDto.setStatus(pedidoEntity.getStatus().toString());
-		pedidoEntity.setTempoDePreparo(pedidoEntity.getTempoDePreparo());
+		pedidoResponseDto.setTempoDePreparo(pedidoEntity.getTempoDePreparo());
 		return pedidoResponseDto;
 	}
 	
